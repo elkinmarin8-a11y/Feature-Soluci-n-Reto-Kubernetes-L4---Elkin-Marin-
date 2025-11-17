@@ -8,7 +8,7 @@ metadata:
     tier: frontend
     environment: production
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-web
@@ -43,3 +43,4 @@ spec:
               port: 80
             initialDelaySeconds: 5
             periodSeconds: 10
+
